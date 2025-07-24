@@ -67,7 +67,7 @@ async function showMealDetails(meal) {
     <h3>${fullMeal.strMeal}</h3>
     <p><strong>Category:</strong> ${fullMeal.strCategory}</p>
     <p><strong>Area:</strong> ${fullMeal.strArea}</p>
-    <p><strong>Instructions:</strong><br>${fullMeal.strInstructions.slice(0, 150)}</p>
+    <p><strong>Instructions:</strong><br>${fullMeal.strInstructions}</p>
     <a href="${fullMeal.strYoutube}" target="_blank" class="btn btn-outline-primary mt-2">Watch on YouTube</a>
   `;
   document.getElementById("close-overlay").addEventListener("click", () => {
